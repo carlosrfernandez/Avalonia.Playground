@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:NET8.Experiments.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="600"
+             x:Class="NET8.Experiments.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+    <StackPanel>
+        <Grid Margin="5">
+            <Grid.ColumnDefinitions>Auto, Auto</Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Start listening for locations" Click="StartListeningForLocations" />
+            <Button Grid.Column="1" Content="Stop listening for locations" Click="StopListeningForLocations" /> 
+        </Grid>
+        <TextBlock Text="{Binding UserCoordinates}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </StackPanel>
+</UserControl>

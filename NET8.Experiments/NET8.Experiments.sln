@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET8.Experiments", "NET8.Experiments\NET8.Experiments\NET8.Experiments.csproj", "{08A3CF6C-AB50-4227-82E3-61EB6893039B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET8.Experiments.Android", "NET8.Experiments\NET8.Experiments.Android\NET8.Experiments.Android.csproj", "{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET8.Experiments.Desktop", "NET8.Experiments\NET8.Experiments.Desktop\NET8.Experiments.Desktop.csproj", "{EF99116F-9A69-4D8D-8991-ED90AD1AF644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET8.Experiments.iOS", "NET8.Experiments\NET8.Experiments.iOS\NET8.Experiments.iOS.csproj", "{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET8.Experiments.Browser", "NET8.Experiments\NET8.Experiments.Browser\NET8.Experiments.Browser.csproj", "{BC1356D2-1869-4235-8FBE-30A2D25BB87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Code", "Shared.Code\Shared.Code.csproj", "{E1CDA404-AFE2-4D07-99C5-43E8F93CB179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A3CF6C-AB50-4227-82E3-61EB6893039B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A3CF6C-AB50-4227-82E3-61EB6893039B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A3CF6C-AB50-4227-82E3-61EB6893039B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A3CF6C-AB50-4227-82E3-61EB6893039B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9934DA72-A639-4F92-9A36-DB4EABCFFA6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EF99116F-9A69-4D8D-8991-ED90AD1AF644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF99116F-9A69-4D8D-8991-ED90AD1AF644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF99116F-9A69-4D8D-8991-ED90AD1AF644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF99116F-9A69-4D8D-8991-ED90AD1AF644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6623C6B-C8F6-439B-8C5F-3EAE4E9CF301}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC1356D2-1869-4235-8FBE-30A2D25BB87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1356D2-1869-4235-8FBE-30A2D25BB87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1356D2-1869-4235-8FBE-30A2D25BB87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1356D2-1869-4235-8FBE-30A2D25BB87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CDA404-AFE2-4D07-99C5-43E8F93CB179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CDA404-AFE2-4D07-99C5-43E8F93CB179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CDA404-AFE2-4D07-99C5-43E8F93CB179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CDA404-AFE2-4D07-99C5-43E8F93CB179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
